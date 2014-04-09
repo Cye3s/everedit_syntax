@@ -43,10 +43,10 @@ Set iPackage=oracle.CreateItem(COLOR_FUNCTION, "\b(dbms|utl)_\w+\b",False )
 'Dictionary Views
 Set iDv=oracle.CreateItem(COLOR_WORD1, "\b(GV\$|KU\$_|SDO|V\$)\w+\b",False )
 
-'othersFun
+'otherFunction
 Set wOthersFun=oracle.CreateWord(COLOR_WORD1, "xmlagg xmldom xmlformat xmlparser xmlsequence xslprocessor", False)
 
-'othersFun
+'otherType
 Set wOthersType=oracle.CreateWord(COLOR_WORD1, "xmlsequencetype xmltype", False)
 
 
