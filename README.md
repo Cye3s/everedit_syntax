@@ -1,2 +1,3 @@
-everedit_syntax
+Syntax File for EverEdit 
+http://www.everedit.net
 ===============
