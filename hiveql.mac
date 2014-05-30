@@ -12,6 +12,7 @@ Set hive=CreateParser()
 Set rLineComment=hive.CreateRegion(COLOR_COMMENT1, "+--+", "$", True )
 Set rBlockComment=hive.CreateRegion(COLOR_COMMENT1, "+/*+", "*/", True )
 Set rString1=hive.CreateStringRegion( COLOR_STRING2, "'", "", False )
+Set rString1=hive.CreateStringRegion( COLOR_STRING2, """", "", False )
 
 hive.AddRegion( rLineComment )
 hive.AddRegion( rBlockComment )
